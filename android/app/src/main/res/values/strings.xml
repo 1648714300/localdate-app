@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">LocalDate</string>
+    <string name="title_activity_main">LocalDate</string>
+    <string name="package_name">cn.localdate.planner</string>
+    <string name="custom_url_scheme">cn.localdate.planner</string>
+</resources>

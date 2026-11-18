@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 SRC = Path(r"C:/Users/Administrator/.workbuddy-4/skills/localdate/city-packs/huainan/catalog")
-OUT = Path(__file__).resolve().parents[1] / "data" / "app-data.json"
+OUT = Path(__file__).resolve().parents[1] / "www" / "data" / "app-data.json"
 
 
 def read(name):

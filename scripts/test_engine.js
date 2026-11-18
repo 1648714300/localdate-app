@@ -7,8 +7,8 @@ global.localStorage = {
   getItem: k => (k in mem ? mem[k] : null),
   setItem: (k, v) => { mem[k] = v; },
 };
-require(path.join(__dirname, '..', 'js', 'engine.js'));
-const data = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'app-data.json'), 'utf8'));
+require(path.join(__dirname, '..', 'www', 'js', 'engine.js'));
+const data = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'www', 'data', 'app-data.json'), 'utf8'));
 const E = global.LocalEngine;
 E.init(data);
 const p1 = E.generate({ seed: 20261119 });

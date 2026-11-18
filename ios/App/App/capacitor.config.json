@@ -1,0 +1,16 @@
+{
+	"appId": "cn.localdate.planner",
+	"appName": "LocalDate",
+	"webDir": "www",
+	"server": {
+		"androidScheme": "https"
+	},
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 800,
+			"backgroundColor": "#f7f4ef",
+			"showSpinner": false
+		}
+	},
+	"packageClassList": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "LocalDate · 约会方案生成器",
+  "short_name": "LocalDate",
+  "description": "本地约会方案生成，15 个可落地提案，离线可用，不收集个人信息。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f4ef",
+  "theme_color": "#f7f4ef",
+  "lang": "zh-CN",
+  "categories": ["lifestyle", "travel"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

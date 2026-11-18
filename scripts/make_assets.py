@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-ICON = ROOT / "assets" / "icons"
+ICON = ROOT / "www" / "assets" / "icons"
 SHOT = ROOT / "store" / "screenshots"
 STORE = ROOT / "store"
 for d in (ICON, SHOT, STORE):

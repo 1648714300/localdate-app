@@ -48,8 +48,8 @@ node scripts/test_engine.js      # 零依赖自测
 
 | 路径 | 用途 |
 |---|---|
-| `index.html` / `css/` / `js/` | 应用本体 |
-| `data/app-data.json` | 内置要素池（270 KB） |
+| `www/index.html` / `www/css/` / `www/js/` | 应用本体 |
+| `www/data/app-data.json` | 内置要素池（270 KB） |
 | `scripts/` | 数据编译、素材生成、自测 |
 | `store/` | 图标、Feature Graphic、5 张截图、商店文案 |
 | `privacy.html` | 隐私政策（中英双语） |

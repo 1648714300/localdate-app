@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f4ef">
+<meta name="description" content="LocalDate 约会方案生成器——离线可用的本地约会提案工具。">
+<title>LocalDate · 约会方案</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="mark">LD</span>
+    <div><h1>LocalDate</h1><p>把「去哪」变成能落地的方案</p></div>
+  </div>
+  <button id="settingsBtn" class="icon-btn" aria-label="设置">⚙</button>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-line"><span id="cityLabel">淮南</span> · <span id="roundLabel">第 1 轮</span> · <span id="learnedLabel">已学 0 条偏好</span></div>
+    <h2 id="heroTitle">今天，去哪儿坐坐。</h2>
+    <p class="sub">15 个方案：10 个本地 · 4 个近圈 · 1 个远途。点 ♥ 或 × 告诉我口味，下一轮更准。</p>
+    <button id="genBtn" class="primary">生成本轮方案</button>
+  </section>
+
+  <section id="plans" class="plans" aria-live="polite"></section>
+
+  <div id="actions" class="actions hidden">
+    <button id="copyBtn" class="ghost">复制全部</button>
+    <button id="submitBtn" class="primary small">提交反馈并换一批</button>
+  </div>
+
+  <p id="footnote" class="footnote">数据来自公开景点库与本地餐饮资料，出行前请电话确认营业与价格。</p>
+</main>
+
+<aside id="sheet" class="sheet hidden" aria-modal="true">
+  <div class="sheet-head"><h3>设置与说明</h3><button id="closeSheet" class="icon-btn">✕</button></div>
+  <div class="sheet-body">
+    <h4>这个软件做什么</h4>
+    <p>把「约会去哪」拆成可执行的方案：地点、时长、做什么、吃什么、怎么开口。全部在本机离线生成，不上传任何数据，也不需要账号。</p>
+    <h4>反馈怎么起作用</h4>
+    <p>每次点 ♥ / × 会调整特征评分（Elo，K=24，时间衰减 0.05）。落选只是降权，不会永久封杀；隔几轮还有机会再出现。</p>
+    <h4>数据说明</h4>
+    <p id="statLine">载入中…</p>
+    <p class="muted">来源：公开景点资料、本地餐饮公开报道。价格与营业状态可能变动，出发前请核实。</p>
+    <button id="resetBtn" class="danger">清除本机学习记录</button>
+  </div>
+</aside>
+
+<div id="toast" class="toast"></div>
+<script src="js/engine.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
