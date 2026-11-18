@@ -1,0 +1,66 @@
+=== 应用名称 ===
+中文：LocalDate · 约会方案生成器
+英文：LocalDate — Date Ideas
+
+=== 副标题 ===
+中文：15 个能落地的本地约会提案
+英文：15 local date ideas, ready to go
+
+=== 简短描述（30 字内 / 80 字符内）===
+中文：离线生成约会方案，越用越懂你的口味。
+EN: Offline date plans that learn your taste.
+
+=== 完整描述（Google Play 4000 字符内 / App Store 4000 字符内）===
+中文：
+「约会去哪」不再靠临时刷手机。
+
+LocalDate 一次给你 15 个能直接落地的方案：10 个本地、4 个近圈、1 个远途。每个方案写清楚去哪、花多久、做什么、吃什么、怎么开口邀她，全部在本机生成，不用联网，不用注册。
+
+用久了会更准。点一下「想去」或「不去」，偏好就记在本机；落选只会降权，不会永久封杀，隔几轮还有机会再出现。
+
+适合：
+· 周末不知道去哪的两个人
+· 想少点仪式感、多点日常陪伴的关系
+· 需要一句能直接发给对方的邀约话术
+
+数据说明：内置公开景点与餐饮资料，价格与营业状态可能变动，出发前请电话确认。应用不收集任何个人信息、不含广告与追踪。
+
+EN:
+Stop scrolling for date ideas.
+
+LocalDate gives you 15 ready-to-go plans at once: 10 local, 4 nearby, 1 farther afield. Each plan covers where to go, how long to stay, what to do, what to eat, and how to ask — generated entirely on your device, no account, no network.
+
+It learns. Tap "Like" or "Not for me" and preferences are stored locally. Rejected ideas are down-ranked, never banned forever.
+
+Built for couples who prefer low-key time together over elaborate plans.
+
+Data comes from public sources; hours and prices may change. No personal data collected, no ads, no trackers.
+
+=== 关键词（App Store，100 字符内）===
+约会,约会方案,周末去哪,情侣,约会地点,本地游,date ideas,date planner,weekend plans,couples
+
+=== 分类 ===
+Google Play：生活方式（LIFESTYLE）
+App Store：Primary: Lifestyle / Secondary: Travel
+
+=== 内容分级 ===
+全年龄（Google Play：Everyone；App Store：4+ / 12+ 视问卷结果）
+
+=== 隐私政策 URL ===
+https://1648714300.github.io/localdate-app/privacy.html
+
+=== 支持 URL ===
+https://github.com/1648714300/localdate
+
+=== 定价 ===
+免费
+
+=== 截图说明 ===
+01-生成方案.png：首屏与方案生成
+02-方案详情.png：单个方案的完整写法与反馈
+03-十五方案.png：15 个方案列表
+04-反馈学习.png：偏好学习记录
+05-隐私说明.png：离线与隐私说明
+
+=== 宣传语（一句话）===
+15 个能落地的方案，点两下就越用越准。

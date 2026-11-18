@@ -1,0 +1,10 @@
+node_modules/
+scripts/
+store/
+docs/
+*.zip
+.git/
+.github/
+package-lock.json
+README.md
+SUBMISSION.md
