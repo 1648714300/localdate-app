@@ -47,7 +47,7 @@ App Store：Primary: Lifestyle / Secondary: Travel
 全年龄（Google Play：Everyone；App Store：4+ / 12+ 视问卷结果）
 
 === 隐私政策 URL ===
-https://1648714300.github.io/localdate-app/privacy.html
+https://wbapp-vygowtv1s65bjdj6i9uf2s.app.workbuddy.host/?sharecode=CDEAEFAV2Q
 
 === 支持 URL ===
 https://github.com/1648714300/localdate

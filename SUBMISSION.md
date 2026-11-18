@@ -27,7 +27,7 @@
 2. 完成开发者资料页（名称、邮箱、电话、网站）。
 3. 创建应用 → 默认语言中文（简体）→ 应用类型「应用」→ 免费。
 4. 填写应用清单：商店文案直接复制 `store/metadata.txt`；上传 `store/screenshots/` 至少 2 张、`store/feature-graphic.png`。
-5. 隐私政策 URL：`https://1648714300.github.io/localdate-app/privacy.html`（需先完成第三节的 GitHub Pages 启用）。
+5. 隐私政策 URL：`https://wbapp-vygowtv1s65bjdj6i9uf2s.app.workbuddy.host/?sharecode=CDEAEFAV2Q`（需先完成第三节的 GitHub Pages 启用）。
 6. 数据安全表单：全部选「不收集数据 / 不共享」，与隐私政策一致。
 7. 内容分级问卷：按问卷作答，建议结果为 Everyone。
 8. 目标受众：选「家庭/所有年龄」；如勾选儿童，会触发额外合规要求，本应用建议不选。
@@ -49,20 +49,26 @@
 
 ---
 
-## 三、需要你授权的两处 GitHub 设置（否则隐私政策 URL 不生效）
+## 三、隐私政策链接（已完成）
 
-1. 把 `localdate-app` 仓库的 GitHub Pages 打开：Settings → Pages → Source = `main` / root。启用后 `https://1648714300.github.io/localdate-app/privacy.html` 可访问。
-2. GitHub Actions 需要 `workflow` 权限才能上传 `.github/workflows/build.yml`。当前本机 token 没有该 scope，因此**工作流文件只存在于本地工程与 zip 中，未推到 GitHub**。你在 GitHub 网页端手动新建 `.github/workflows/build.yml`，粘贴本地同名文件内容即可；或在本地执行 `gh auth refresh -s workflow` 后让我重推。
+隐私政策已发布并验证可访问（HTTP 200）：
+`https://wbapp-vygowtv1s65bjdj6i9uf2s.app.workbuddy.host/?sharecode=CDEAEFAV2Q`
+
+上架表单的隐私政策 URL 直接填这个。GitHub Pages 未启用（token 无 pages 权限），但不影响上架。
+
+## 四、一处 GitHub 设置（影响云端构建，不影响上架）
+
+GitHub Actions 需要 `workflow` 权限才能上传 `.github/workflows/build.yml`。当前本机 token 没有该 scope，因此**工作流文件只存在于本地工程与 zip 中，未推到 GitHub**。你在 GitHub 网页端手动新建该文件并粘贴本地同名内容即可；或在本地执行 `gh auth refresh -s workflow` 后让我重推。没有它也能上架：按 README 在本机构建 AAB 即可。
 
 ---
 
-## 四、我能继续代做、但需要你先给凭据的部分
+## 五、我能继续代做、但需要你先给凭据的部分
 
 - 有 Google Play Console 账号后：我可以帮你填应用清单文案、生成 AAB 上传命令、逐项核对表单。
 - 有 Apple Developer 账号与证书后：我可以配置 `exportOptions.plist`、写 CI 签名脚本、检查 IPA 包内容。
 - 有 macOS 环境（或 GitHub Actions workflow 权限）后：我可以直接产出 iOS IPA。
 
-## 五、发布前提醒
+## 六、发布前提醒
 
 - 商店截图里的示例店名与价格来自公开资料，上市前建议抽查 3–5 家是否仍在营业。
 - 隐私政策 URL 必须公开可访问，审核会点开检查。
